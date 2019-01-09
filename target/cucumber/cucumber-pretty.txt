@@ -1,0 +1,11 @@
+Feature: This will Test Landing Page Properties
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: This Scenario will execute to see current Landing Page [90m# src/test/resources/Features/firstFeature.feature:7[0m
+    [32mGiven [0m[32mI Open A Browser[0m                                         [90m# Stepdef.i_Open_A_Browser()[0m
+    [32mAnd [0m[32mI go to Google[0m                                             [90m# Stepdef.i_go_to_Google()[0m
+    [32mWhen [0m[32mI Input Text[0m                                              [90m# Stepdef.i_Input_Text()[0m
+    [32mAnd [0m[32msome other action[0m                                          [90m# Stepdef.some_other_action()[0m
+    [32mAnd [0m[32myet another action[0m                                         [90m# Stepdef.yet_another_action()[0m
+    [32mThen [0m[32mI validate the outcomes[0m                                   [90m# Stepdef.i_validate_the_outcomes()[0m

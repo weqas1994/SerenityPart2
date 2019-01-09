@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^I Open A Browser$",
+    "steps": [
+      {
+        "name": "I Open A Browser",
+        "aggregatedDurations": {
+          "average": 6.4663913,
+          "median": 6.4663913
+        },
+        "durations": [
+          {
+            "duration": 6.4663913,
+            "location": "src/test/resources/Features/firstFeature.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to Google$",
+    "steps": [
+      {
+        "name": "I go to Google",
+        "aggregatedDurations": {
+          "average": 0.2779963,
+          "median": 0.2779963
+        },
+        "durations": [
+          {
+            "duration": 0.2779963,
+            "location": "src/test/resources/Features/firstFeature.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Input Text$",
+    "steps": [
+      {
+        "name": "I Input Text",
+        "aggregatedDurations": {
+          "average": 0.1819546,
+          "median": 0.1819546
+        },
+        "durations": [
+          {
+            "duration": 0.1819546,
+            "location": "src/test/resources/Features/firstFeature.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^some other action$",
+    "steps": [
+      {
+        "name": "some other action",
+        "aggregatedDurations": {
+          "average": 0.1208359,
+          "median": 0.1208359
+        },
+        "durations": [
+          {
+            "duration": 0.1208359,
+            "location": "src/test/resources/Features/firstFeature.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I validate the outcomes$",
+    "steps": [
+      {
+        "name": "I validate the outcomes",
+        "aggregatedDurations": {
+          "average": 0.0007111,
+          "median": 0.0007111
+        },
+        "durations": [
+          {
+            "duration": 0.0007111,
+            "location": "src/test/resources/Features/firstFeature.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^yet another action$",
+    "steps": [
+      {
+        "name": "yet another action",
+        "aggregatedDurations": {
+          "average": 0.0006488,
+          "median": 0.0006488
+        },
+        "durations": [
+          {
+            "duration": 0.0006488,
+            "location": "src/test/resources/Features/firstFeature.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]

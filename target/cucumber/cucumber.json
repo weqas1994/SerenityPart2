@@ -1,0 +1,99 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "This Scenario will execute to see current Landing Page",
+        "description": "",
+        "id": "this-will-test-landing-page-properties;this-scenario-will-execute-to-see-current-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6466391300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Open A Browser",
+            "match": {
+              "location": "Stepdef.i_Open_A_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277996300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I go to Google",
+            "match": {
+              "location": "Stepdef.i_go_to_Google()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181954600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Input Text",
+            "match": {
+              "location": "Stepdef.i_Input_Text()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120835900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "some other action",
+            "match": {
+              "location": "Stepdef.some_other_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "yet another action",
+            "match": {
+              "location": "Stepdef.yet_another_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 711100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "Stepdef.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "This will Test Landing Page Properties",
+    "description": "  I want to use this template for my feature file",
+    "id": "this-will-test-landing-page-properties",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/firstFeature.feature"
+  }
+]

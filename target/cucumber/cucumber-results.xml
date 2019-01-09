@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.426397">
+<testcase classname="This will Test Landing Page Properties" name="This Scenario will execute to see current Landing Page" time="7.426397">
+<system-out><![CDATA[Given I Open A Browser......................................................passed
+And I go to Google..........................................................passed
+When I Input Text...........................................................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
